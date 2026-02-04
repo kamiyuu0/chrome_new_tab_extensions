@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab Extensions",
+  "version": "1.0.0",
+  "description": "新しいタブを開く際にGitHubを表示する拡張機能です。",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
